@@ -42,6 +42,61 @@ header nav ul li a
     display: block;
     text-decoration: none;
 }
+.gridContenedor
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    width: 96%;
+    margin: auto;
+}
+.gridContenedor div
+{
+    background-color: #1F2833;
+    margin:1%;
+    padding:2%;
+    border-radius: 2.5em;
+    margin-bottom: 5%;
+}
+.gridContenedor div img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    border: 10px solid #C5C6C7;
+}
+a
+{
+    font-size: 1.8em;
+}
+p
+{
+    font-size: 1.6em;
+}
+.BatmanBegins
+{
+    border-top: 15px solid #D2691E;
+}
+.DarkKnight
+{
+    border-top: 15px solid #005B94;
+}
+.DarkKnightRises
+{
+    border-top: 15px solid #E6ECF0;
+}
+div:hover
+{
+    box-shadow: 0 0 1em 0.5em #F5F5F7;
+}    gap:2%;
+    margin-left: 1%;
+}
+header nav ul li a
+{
+    display: block;
+    text-decoration: none;
+}
 header nav ul li a:hover
 {
     background-color: #1F2833;
